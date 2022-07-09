@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.statistic.jacoco.services.StatisticsServiceTest" time="1.424" tests="0" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.statistic.jacoco.services.StatisticsServiceTest" time="0.155" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\IGOR\IdeaProjects\jacoco\target\test-classes;C:\Users\IGOR\IdeaProjects\jacoco\target\classes;C:\Users\IGOR\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\IGOR\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\IGOR\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\IGOR\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\IGOR\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\IGOR\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\IGOR\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\IGOR\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\IGOR\.m2\repository\org\testng\testng\7.6.0\testng-7.6.0.jar;C:\Users\IGOR\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\IGOR\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\IGOR\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\IGOR\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\IGOR\IdeaProjects\jacoco\target\test-classes;C:\Users\IGOR\IdeaProjects\jacoco\target\classes;C:\Users\IGOR\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\IGOR\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\IGOR\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\IGOR\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\IGOR\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\IGOR\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\IGOR\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\IGOR\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.14.101-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\IGOR\AppData\Local\Temp\surefire557737035920964655\surefirebooter9819867374698223022.jar C:\Users\IGOR\AppData\Local\Temp\surefire557737035920964655 2022-07-06T13-41-15_602-jvmRun1 surefire15393705267948478536tmp surefire_010515842367756968052tmp"/>
+    <property name="sun.java.command" value="C:\Users\IGOR\AppData\Local\Temp\surefire6547778466164222945\surefirebooter14401684487892581145.jar C:\Users\IGOR\AppData\Local\Temp\surefire6547778466164222945 2022-07-09T03-04-25_265-jvmRun1 surefire3255526200214472405tmp surefire_05115327584619767059tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\IGOR\IdeaProjects\jacoco\target\test-classes;C:\Users\IGOR\IdeaProjects\jacoco\target\classes;C:\Users\IGOR\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\IGOR\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\IGOR\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\IGOR\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\IGOR\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\IGOR\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\IGOR\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\IGOR\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\IGOR\.m2\repository\org\testng\testng\7.6.0\testng-7.6.0.jar;C:\Users\IGOR\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\IGOR\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\IGOR\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\IGOR\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\IGOR\IdeaProjects\jacoco\target\test-classes;C:\Users\IGOR\IdeaProjects\jacoco\target\classes;C:\Users\IGOR\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\IGOR\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\IGOR\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\IGOR\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\IGOR\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\IGOR\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\IGOR\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\IGOR\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\IGOR"/>
     <property name="user.language" value="ru"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\IGOR\AppData\Local\Temp\surefire557737035920964655\surefirebooter9819867374698223022.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\IGOR\AppData\Local\Temp\surefire6547778466164222945\surefirebooter14401684487892581145.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14.1+1"/>
@@ -61,4 +61,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
+  <testcase name="findMax" classname="ru.netology.statistic.jacoco.services.StatisticsServiceTest" time="0.076"/>
+  <testcase name="findMin" classname="ru.netology.statistic.jacoco.services.StatisticsServiceTest" time="0"/>
 </testsuite>

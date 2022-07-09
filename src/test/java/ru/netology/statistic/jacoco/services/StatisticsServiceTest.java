@@ -1,5 +1,6 @@
 package ru.netology.statistic.jacoco.services;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -16,5 +17,19 @@ public class StatisticsServiceTest {
         long actual = service.findMax(incomesInBillions);
 
         assertEquals(expected, actual);
+    }
+
+    @Test
+
+    void findMin() {
+        StatisticsService service = new StatisticsService();
+        long[] incomesInBillions = {5, 12, 8, 4, 5, 3, 8, 6, 11, 11, 12};
+        long expectedMin = 12;
+
+
+        long actualMin = service.findMax(incomesInBillions);
+
+        Assertions.assertEquals(expectedMin,actualMin);
+
     }
 }
